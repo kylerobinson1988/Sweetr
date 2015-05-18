@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>18A946DB-57B3-4974-A236-D704A4092209</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Sweetr</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>A2D0B04955964FDB4E3C6B1184B47CA069AE4668</key>
+		<string>https://github.com/kylerobinson1988/Sweetr.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Sweetr.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>A2D0B04955964FDB4E3C6B1184B47CA069AE4668</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kylerobinson1988/Sweetr.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A2D0B04955964FDB4E3C6B1184B47CA069AE4668</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A2D0B04955964FDB4E3C6B1184B47CA069AE4668</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Sweetr</string>
+		</dict>
+	</array>
+</dict>
+</plist>

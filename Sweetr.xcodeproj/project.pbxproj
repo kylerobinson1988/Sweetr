@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		91159B5D1B0A2BFE00AC9E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */; };
-		91159B5F1B0A2BFE00AC9E62 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B5E1B0A2BFE00AC9E62 /* FirstViewController.swift */; };
-		91159B611B0A2BFE00AC9E62 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B601B0A2BFE00AC9E62 /* SecondViewController.swift */; };
 		91159B641B0A2BFE00AC9E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91159B621B0A2BFE00AC9E62 /* Main.storyboard */; };
 		91159B661B0A2BFE00AC9E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91159B651B0A2BFE00AC9E62 /* Images.xcassets */; };
 		91159B691B0A2BFE00AC9E62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91159B671B0A2BFE00AC9E62 /* LaunchScreen.xib */; };
 		91159B751B0A2BFE00AC9E62 /* SweetrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B741B0A2BFE00AC9E62 /* SweetrTests.swift */; };
+		91159B7F1B0A373100AC9E62 /* TweetsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B7E1B0A373100AC9E62 /* TweetsTableViewController.swift */; };
+		91159B811B0A375600AC9E62 /* VenuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B801B0A375600AC9E62 /* VenuesTableViewController.swift */; };
+		91159B831B0A37DE00AC9E62 /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B821B0A37DE00AC9E62 /* SocialData.swift */; };
+		91159B851B0A381F00AC9E62 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B841B0A381F00AC9E62 /* Requests.swift */; };
+		91159B871B0A383100AC9E62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B861B0A383100AC9E62 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +33,17 @@
 		91159B571B0A2BFE00AC9E62 /* Sweetr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweetr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91159B5B1B0A2BFE00AC9E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		91159B5E1B0A2BFE00AC9E62 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		91159B601B0A2BFE00AC9E62 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		91159B631B0A2BFE00AC9E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		91159B651B0A2BFE00AC9E62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		91159B681B0A2BFE00AC9E62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		91159B6E1B0A2BFE00AC9E62 /* SweetrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SweetrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91159B731B0A2BFE00AC9E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91159B741B0A2BFE00AC9E62 /* SweetrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SweetrTests.swift; sourceTree = "<group>"; };
+		91159B7E1B0A373100AC9E62 /* TweetsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetsTableViewController.swift; sourceTree = "<group>"; };
+		91159B801B0A375600AC9E62 /* VenuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesTableViewController.swift; sourceTree = "<group>"; };
+		91159B821B0A37DE00AC9E62 /* SocialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
+		91159B841B0A381F00AC9E62 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		91159B861B0A383100AC9E62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +85,12 @@
 		91159B591B0A2BFE00AC9E62 /* Sweetr */ = {
 			isa = PBXGroup;
 			children = (
-				91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */,
-				91159B5E1B0A2BFE00AC9E62 /* FirstViewController.swift */,
-				91159B601B0A2BFE00AC9E62 /* SecondViewController.swift */,
+				91159B821B0A37DE00AC9E62 /* SocialData.swift */,
+				91159B841B0A381F00AC9E62 /* Requests.swift */,
+				91159B861B0A383100AC9E62 /* Constants.swift */,
+				91159B7E1B0A373100AC9E62 /* TweetsTableViewController.swift */,
+				91159B801B0A375600AC9E62 /* VenuesTableViewController.swift */,
 				91159B621B0A2BFE00AC9E62 /* Main.storyboard */,
-				91159B651B0A2BFE00AC9E62 /* Images.xcassets */,
-				91159B671B0A2BFE00AC9E62 /* LaunchScreen.xib */,
 				91159B5A1B0A2BFE00AC9E62 /* Supporting Files */,
 			);
 			path = Sweetr;
@@ -93,6 +99,9 @@
 		91159B5A1B0A2BFE00AC9E62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */,
+				91159B651B0A2BFE00AC9E62 /* Images.xcassets */,
+				91159B671B0A2BFE00AC9E62 /* LaunchScreen.xib */,
 				91159B5B1B0A2BFE00AC9E62 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +224,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91159B611B0A2BFE00AC9E62 /* SecondViewController.swift in Sources */,
+				91159B831B0A37DE00AC9E62 /* SocialData.swift in Sources */,
 				91159B5D1B0A2BFE00AC9E62 /* AppDelegate.swift in Sources */,
-				91159B5F1B0A2BFE00AC9E62 /* FirstViewController.swift in Sources */,
+				91159B7F1B0A373100AC9E62 /* TweetsTableViewController.swift in Sources */,
+				91159B851B0A381F00AC9E62 /* Requests.swift in Sources */,
+				91159B811B0A375600AC9E62 /* VenuesTableViewController.swift in Sources */,
+				91159B871B0A383100AC9E62 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +427,7 @@
 				91159B7A1B0A2BFE00AC9E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		91159B7B1B0A2BFE00AC9E62 /* Build configuration list for PBXNativeTarget "SweetrTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +436,7 @@
 				91159B7D1B0A2BFE00AC9E62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
