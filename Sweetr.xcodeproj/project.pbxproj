@@ -17,6 +17,8 @@
 		91159B831B0A37DE00AC9E62 /* SocialData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B821B0A37DE00AC9E62 /* SocialData.swift */; };
 		91159B851B0A381F00AC9E62 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B841B0A381F00AC9E62 /* Requests.swift */; };
 		91159B871B0A383100AC9E62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B861B0A383100AC9E62 /* Constants.swift */; };
+		91159B891B0AC30500AC9E62 /* VenuesMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B881B0AC30500AC9E62 /* VenuesMapViewController.swift */; };
+		91159B8B1B0AC42600AC9E62 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B8A1B0AC42600AC9E62 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		91159B821B0A37DE00AC9E62 /* SocialData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialData.swift; sourceTree = "<group>"; };
 		91159B841B0A381F00AC9E62 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
 		91159B861B0A383100AC9E62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		91159B881B0AC30500AC9E62 /* VenuesMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VenuesMapViewController.swift; sourceTree = "<group>"; };
+		91159B8A1B0AC42600AC9E62 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 				91159B861B0A383100AC9E62 /* Constants.swift */,
 				91159B7E1B0A373100AC9E62 /* TweetsTableViewController.swift */,
 				91159B801B0A375600AC9E62 /* VenuesTableViewController.swift */,
+				91159B881B0AC30500AC9E62 /* VenuesMapViewController.swift */,
+				91159B8A1B0AC42600AC9E62 /* TableViewCell.swift */,
 				91159B621B0A2BFE00AC9E62 /* Main.storyboard */,
 				91159B5A1B0A2BFE00AC9E62 /* Supporting Files */,
 			);
@@ -225,6 +231,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				91159B831B0A37DE00AC9E62 /* SocialData.swift in Sources */,
+				91159B8B1B0AC42600AC9E62 /* TableViewCell.swift in Sources */,
+				91159B891B0AC30500AC9E62 /* VenuesMapViewController.swift in Sources */,
 				91159B5D1B0A2BFE00AC9E62 /* AppDelegate.swift in Sources */,
 				91159B7F1B0A373100AC9E62 /* TweetsTableViewController.swift in Sources */,
 				91159B851B0A381F00AC9E62 /* Requests.swift in Sources */,
