@@ -6,16 +6,27 @@
 //  Copyright (c) 2015 Kyle Brooks Robinson. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class TableViewCell: UITableViewCell {
     
     
     @IBOutlet weak var cellNameLabel: UILabel!
     
-    @IBOutlet weak var cellDistanceLabel: UILabel!
+//    @IBOutlet weak var cellDistanceLabel: UILabel!
     
     @IBOutlet weak var iconImageView: UIImageView!
     
+    
+    
+    var tweetInfo: [AnyObject?]! {
+        
+        didSet {
+            
+        }
+        
+    }
+    
 
 }
+

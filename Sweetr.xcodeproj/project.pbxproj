@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		910C0A121B14B8F8006F9CAB /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C0A101B14B8F8006F9CAB /* Fabric.framework */; };
+		910C0A131B14B8F8006F9CAB /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C0A111B14B8F8006F9CAB /* Crashlytics.framework */; };
 		91159B5D1B0A2BFE00AC9E62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */; };
 		91159B641B0A2BFE00AC9E62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91159B621B0A2BFE00AC9E62 /* Main.storyboard */; };
 		91159B661B0A2BFE00AC9E62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91159B651B0A2BFE00AC9E62 /* Images.xcassets */; };
@@ -32,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		910C0A101B14B8F8006F9CAB /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		910C0A111B14B8F8006F9CAB /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 		91159B571B0A2BFE00AC9E62 /* Sweetr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sweetr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91159B5B1B0A2BFE00AC9E62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91159B5C1B0A2BFE00AC9E62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				910C0A131B14B8F8006F9CAB /* Crashlytics.framework in Frameworks */,
+				910C0A121B14B8F8006F9CAB /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,9 +74,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		910C0A0F1B14B8CB006F9CAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				910C0A101B14B8F8006F9CAB /* Fabric.framework */,
+				910C0A111B14B8F8006F9CAB /* Crashlytics.framework */,
+			);
+			name = Frameworks;
+			path = Sweetr;
+			sourceTree = "<group>";
+		};
 		91159B4E1B0A2BFE00AC9E62 = {
 			isa = PBXGroup;
 			children = (
+				910C0A0F1B14B8CB006F9CAB /* Frameworks */,
 				91159B591B0A2BFE00AC9E62 /* Sweetr */,
 				91159B711B0A2BFE00AC9E62 /* SweetrTests */,
 				91159B581B0A2BFE00AC9E62 /* Products */,
@@ -140,6 +157,7 @@
 				91159B531B0A2BFE00AC9E62 /* Sources */,
 				91159B541B0A2BFE00AC9E62 /* Frameworks */,
 				91159B551B0A2BFE00AC9E62 /* Resources */,
+				910C0A0E1B14B813006F9CAB /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -224,6 +242,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		910C0A0E1B14B813006F9CAB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run da87a3a0eabf0596da50912311d2188fcbd64c94 0fad7c93626d7648ab5e93efd004f5d692a8c2ae9a3bb3cbc7bcf78f7a1e741f";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		91159B531B0A2BFE00AC9E62 /* Sources */ = {
@@ -366,6 +400,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sweetr",
+				);
 				INFOPLIST_FILE = Sweetr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -376,6 +414,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Sweetr",
+				);
 				INFOPLIST_FILE = Sweetr/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

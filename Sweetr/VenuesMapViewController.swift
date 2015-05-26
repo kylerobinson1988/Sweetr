@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Kyle Brooks Robinson. All rights reserved.
 //
 
-import Cocoa
+import UIKit
 
 class VenuesMapViewController: UIViewController {
 
